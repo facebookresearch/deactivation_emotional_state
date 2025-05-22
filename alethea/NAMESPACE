@@ -1,0 +1,21 @@
+exportPattern("^[[:alpha:]]+")
+import(aws.s3)
+import(dplyr)
+importFrom("utils", "setTxtProgressBar", "txtProgressBar", "packageVersion")
+importFrom("jsonlite", "fromJSON")
+importFrom("devtools", "load_all")
+importFrom("data.table", "fread")
+importFrom("utils", "write.csv", "write.table")
+importFrom("psych", "principal")
+importFrom("stats", "predict", "formula", "lm", "na.omit", "quantile", "t.test",
+           "coef", "model.matrix", "sd", "median")
+importFrom("stats", "as.formula", "cov", "cov.wt", "glm", "na.exclude",
+               "pnorm", "qnorm", "rexp", "runif", "var", "weighted.mean",
+               "weights")
+importFrom("glmnet", "cv.glmnet")
+importFrom("lmtest", "waldtest", "coeftest")
+importFrom("sandwich", "vcovHC")
+importFrom("estimatr", "lm_lin")
+importFrom("xtable", "xtable", "print.xtable")
+importFrom("AER", "ivreg")
+importFrom("Hmisc","wtd.quantile")

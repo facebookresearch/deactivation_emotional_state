@@ -1,0 +1,31 @@
+Package: alethea
+Type: Package
+Title: Standard set of functions for the US 2020 Election Research Project
+Version: 0.1.20
+Author: Pablo Barbera <pbarbera@fb.com>, Winter Mason <winteram@fb.com>,
+  Carlos Velasco <cvelasco@fb.com>
+Maintainer: Pablo Barbera <pbarbera@fb.com>
+Description: Functions to read and clean survey responses, log data, and
+  passive monitoring records, conduct standard analysis routines, and format
+  output tables and graphs. VERSION (0.1.20) IS THE START OF A BRANCH OF THE MAIN
+  CODE. CHECK `utils.R` TO SEE IF THIS IS MAIN BRANCH OR DEACTIVATION.
+License: CC-BY-NC 4.0
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6.1),
+    dplyr,
+    aws.s3,
+    data.table,
+    Hmisc
+Imports:
+    devtools,
+    jsonlite,
+    psych,
+    glmnet,
+    lmtest,
+    sandwich,
+    estimatr,
+    xtable,
+    AER
+RoxygenNote: 7.1.2
